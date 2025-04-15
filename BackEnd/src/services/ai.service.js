@@ -83,6 +83,7 @@ async function generateContent(prompt) {
     contents: prompt,
   });
   console.log(result.text);
+  
 }
 
 module.exports = generateContent
